@@ -1,0 +1,77 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+body {
+  background-color: #dddddd;
+}
+
+#site_header {
+  background-color: #ff8523;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.main_navigation {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 35%;
+}
+
+.main_navigation a {
+  border-style: solid;
+  border-width: thin;
+  color: white;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-right: 10%;
+  padding-left: 10%;
+  border-radius: 5px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  text-align: center;
+  width: 80px;
+}
+
+#page_content {
+  margin-top: -20px;
+  background-color: white;
+  margin-right: 5%;
+  margin-left: 5%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+#page_content h2 {
+  color: #1fabe5;
+
+}
+
+section {
+  padding-top: 1%;
+  margin-left: 3%;
+}
+
+section h3 {
+  color: #1fabe5;
+}
+
+section p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+}
